@@ -14,7 +14,9 @@ List View of Notes: All the recorded notes are displayed in a list view on the a
 The "plus" icon, when pressed, initiates the addition of a new note, whereupon a screen prompts the user to enter the note's subject, content, and whether it should be pinned to the top and the date regarding the note.
 
 Save and Discard: Users are presented with the choice to preserve their input by selecting the "Save" icon when adding a new note. Conversely, they have the option to delete the modifications by selecting the "Discard" icon.
-![Uploading add_note.png…]()
+
+![add_note](https://github.com/Haitham-Burhan/6002CEM_Haitham-Burhan/assets/165500580/c4b0bfbc-cc47-4fb5-a2eb-e27360503a69)
+
 
 
 attach to Top: While adding or editing a note, users have the option to attach specific notes to the top of the list by toggling the "Pin to Top" checkbox. Users are able to prioritize notes that are critical or frequently accessed using this function.
