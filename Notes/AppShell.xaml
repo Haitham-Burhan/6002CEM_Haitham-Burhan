@@ -12,7 +12,7 @@
         <ShellContent
             Title="Notes"
             ContentTemplate="{DataTemplate local:MainPage}"
-            Icon="{OnPlatform 'notesicon.png', iOS='notesicon.png', MacCatalyst='notesicon.png'}" />
+            Icon="{OnPlatform 'notes.png', iOS='notes.png', MacCatalyst='notes.png'}" />
 
         <ShellContent
             Title="About"
@@ -20,15 +20,4 @@
             Icon="{OnPlatform 'info.png', iOS='info.png', MacCatalyst='info.png'}" />
     </TabBar>
 
-    <Shell.Resources>
-        <ResourceDictionary>
-            <OnPlatform x:TypeArguments="FileImageSource" x:Key="AppIcon">
-                <On Platform="Android" Value="notesicon.png" />
-                <On Platform="iOS" Value="notesicon.png" />
-                <On Platform="macOS" Value="notesicon.png" />
-                <On Platform="Windows" Value="notesicon.png" />
-            </OnPlatform>
-        </ResourceDictionary>
-    </Shell.Resources>
-    
 </Shell>

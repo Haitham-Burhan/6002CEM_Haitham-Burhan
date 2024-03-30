@@ -8,17 +8,20 @@
         <!-- List View to display notes -->
 
 
-        <Frame VerticalOptions="FillAndExpand" BackgroundColor="Transparent" HasShadow="True" Padding="0" Margin="0,0,0,0">
-            <ListView x:Name="notesListView" ItemSelected="OnItemSelected" ItemTapped="OnItemTapped" BackgroundColor="Transparent">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
+        <Frame VerticalOptions="StartAndExpand" BackgroundColor="Transparent" HasShadow="True" Padding="0" Margin="0,0,0,0">
+            <ListView x:Name="notesListView" 
+              ItemSelected="OnItemSelected" 
+              ItemTapped="OnItemTapped"
+              BackgroundColor="Transparent" Margin="0,0,0,0">
+                <ListView.ItemTemplate >
+                    <DataTemplate >
                         <ViewCell>
-                            <ContentView Margin="10,10,10,10">
-                                <Frame BackgroundColor="Transparent" Padding="10" HasShadow="False" CornerRadius="10" BorderColor="Snow">
-                                    <StackLayout VerticalOptions="Center">
-                                        <Label Text="{Binding Subject}" FontSize="Large"  TextColor="Snow"/>
-                                        <Label Text="{Binding date}" FontSize="Micro"  TextColor="Snow"/>
-                                        <Label Text="{Binding Notes}" FontSize="Small"  TextColor="Snow"/>
+                            <ContentView Margin="0,10,0,0" VerticalOptions="StartAndExpand">
+                                <Frame BackgroundColor="Transparent" Padding="4" HasShadow="False" CornerRadius="10" BorderColor="Snow">
+                                    <StackLayout VerticalOptions="Start"  >
+                                        <Label Text="{Binding Subject}" FontSize="Large" TextColor="Snow" Margin="5,0,0,0"/>
+                                        <Label Text="{Binding date}" FontSize="Micro" TextColor="Snow"/>
+                                        <Label Text="{Binding Notes}" FontSize="Small" TextColor="Snow"/>
                                     </StackLayout>
                                 </Frame>
                             </ContentView>
@@ -27,6 +30,7 @@
                 </ListView.ItemTemplate>
             </ListView>
         </Frame>
+
 
         <!-- Buttons -->
         <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">

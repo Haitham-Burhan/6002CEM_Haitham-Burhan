@@ -36,11 +36,24 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+		<BaseOutputPath>H:\ASS_DATA\ASS_45\Notes\APK</BaseOutputPath>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
+	  <AndroidCreatePackagePerAbi>True</AndroidCreatePackagePerAbi>
+	  <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-android|AnyCPU'">
+	  <AndroidCreatePackagePerAbi>True</AndroidCreatePackagePerAbi>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+		<!-- App Icon 
+		ForegroundFile="Resources\AppIcon\appiconfg.svg"
+		-->
+		<MauiIcon Include="Resources\AppIcon\note2.png" Color="#512BD4" />
 
 		<!-- Splash Screen -->
 		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
@@ -70,7 +83,7 @@
 	  <None Remove="Resources\Images\info.png" />
 	  <None Remove="Resources\Images\logo.png" />
 	  <None Remove="Resources\Images\logo.svg" />
-	  <None Remove="Resources\Images\notesicon.png" />
+	  <None Remove="Resources\Images\notes.png" />
 	  <None Remove="Resources\Images\plus.png" />
 	  <None Remove="Resources\Images\plus2.png" />
 	  <None Remove="Resources\Images\trash.png" />
