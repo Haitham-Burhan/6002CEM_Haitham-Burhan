@@ -14,6 +14,8 @@ List View of Notes: All the recorded notes are displayed in a list view on the a
 The "plus" icon, when pressed, initiates the addition of a new note, whereupon a screen prompts the user to enter the note's subject, content, and whether it should be pinned to the top and the date regarding the note.
 
 Save and Discard: Users are presented with the choice to preserve their input by selecting the "Save" icon when adding a new note. Conversely, they have the option to delete the modifications by selecting the "Discard" icon.
+![Uploading add_note.png…]()
+
 
 attach to Top: While adding or editing a note, users have the option to attach specific notes to the top of the list by toggling the "Pin to Top" checkbox. Users are able to prioritize notes that are critical or frequently accessed using this function.
 
@@ -22,6 +24,8 @@ By selecting a note entry from the primary list view and tapping it, users are d
 Delete Notes: By hitting on the "trash" button, which opens the selection mode, users can choose and remove several notes at once. Users are presented with checkboxes adjacent to each note in this mode, enabling them to select which ones they wish to delete.
 
 The "About" page of the application provides details regarding the application, including its name, version, and a hyperlink to the GitHub repository through which the source code can be accessed.
+![about-sdec](https://github.com/Haitham-Burhan/6002CEM_Haitham-Burhan/assets/165500580/6002be46-ef7e-4dd6-a7dd-1118560438e3)
+
 
 Visual Enhancements: To improve the overall user experience, the user interface incorporates aesthetically pleasing components such as rounded frames, transparent backgrounds, and graphical controls.
 
