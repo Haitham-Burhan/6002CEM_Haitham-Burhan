@@ -6,7 +6,8 @@ Background/Motivation:
 The "Keep Notes" application has been developed to offer users a user-friendly interface for recording and organizing various types of information such as ideas, reminders, and musings that they desire to retain for future reference. Considering the growing dependence on digital solutions for task organization and information management, a straightforward yet efficient notes application becomes indispensable. The "Keep Notes" application was designed with the intention of providing users with a visually appealing and user-friendly interface for effortlessly creating, managing, and organizing their notes.
 
 
-Summary of Features:
+Summary of Features:![HOME-SCREEN](https://github.com/Haitham-Burhan/6002CEM_Haitham-Burhan/assets/165500580/5dc794dd-aad9-4472-bc15-4835413a15b9)
+
 
 List View of Notes: All the recorded notes are displayed in a list view on the application's homepage. Subject, substance, and date of origination comprise each note entry.
 
