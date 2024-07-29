@@ -1,10 +1,11 @@
-﻿using Microsoft.Maui.Controls;
+﻿                                                    // MainPage.xaml.cs
+
+using Microsoft.Maui.Controls;
 using System;
 using System.Collections.ObjectModel;
-// MainPage.xaml.cs
-using System;
 using System.Linq;
 using Microsoft.Maui.Controls;
+using SQLite;
 
 namespace Notes
 {
@@ -13,7 +14,7 @@ namespace Notes
         // Collection to hold notes
         ObservableCollection<Note> notes = new ObservableCollection<Note>();
         bool isSelectionMode = false;
-
+        SQLiteConnection database;
 
         public MainPage()
         {
@@ -21,8 +22,49 @@ namespace Notes
             SortAndSetNotes();
             // Set the ItemsSource of the ListView to the notes collection
             notesListView.ItemsSource = notes; // This line might be causing the issue
+
+            // Initialize SQLite database connection
+            string dbPath = Path.Combine(FileSystem.AppDataDirectory, "notes.db");
+            database = new SQLiteConnection(dbPath);
+
+            // Create table if it doesn't exist
+            database.CreateTable<Note>();
+
+            // Load notes from the database
+            LoadNotes();
+
+
         }
 
+        private void LoadNotes()
+        {
+            // Retrieve all notes from the database
+            var allNotes = database.Table<Note>().ToList();
+
+            // Clear existing notes
+           // notes.Clear();
+
+            // Add each note to the ObservableCollection
+            foreach (var note in allNotes)
+            {
+                notes.Add(note);
+            }
+        }
+
+        //private void LoadNotes()
+        //{
+        //    // Retrieve all notes from the database
+        //    var allNotes = database.Table<Note>().ToList();
+
+        //    // Clear existing notes
+        //    notes.Clear();
+
+        //    // Add each note to the ObservableCollection
+        //    foreach (var note in allNotes)
+        //    {
+        //        notes.Add(note);
+        //    }
+        //}
 
 
         private void SortAndSetNotes()
@@ -71,7 +113,13 @@ namespace Notes
             {
                 // Add the note to the collection
                 notes.Add(note);
-                
+
+                // Add the note to the database
+                database.Insert(note);
+
+                // Refresh notes from the database
+                LoadNotes();
+
             };
 
             await Navigation.PushModalAsync(addNotePage);
@@ -91,7 +139,10 @@ namespace Notes
                 foreach (var selectedNote in selectedNotes)
                 {
                     notes.Remove(selectedNote);
+                    database.Delete(selectedNote);
                 }
+                // Refresh notes from the database
+                LoadNotes();
             }
         }
 
@@ -113,7 +164,7 @@ namespace Notes
             displayListPage.BindingContext = selectedNote;
 
             await Navigation.PushAsync(displayListPage);
-           
+
             // Deselect the item
             ((ListView)sender).SelectedItem = null;
         }

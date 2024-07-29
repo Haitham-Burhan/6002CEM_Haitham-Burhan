@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Notes.AboutPage">
     <VerticalStackLayout Spacing="20" Margin="20,20,10,10">
-        <Image Source="logo.png"
+        <Image Source="nustlogo.png"
          Aspect="Center" />
         <Label FontSize="22" FontAttributes="Bold" Text="Keep Notes" VerticalOptions="End" />
         <Label FontSize="22" Text="v1.0" VerticalOptions="End" />
