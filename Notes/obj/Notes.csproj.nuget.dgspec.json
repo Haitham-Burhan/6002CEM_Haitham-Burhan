@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "H:\\ASS_DATA\\ASS_45\\Notes\\Notes\\Notes.csproj": {}
+    "C:\\Users\\786 COMPUTERS\\source\\repos\\Notes\\Notes\\Notes.csproj": {}
   },
   "projects": {
-    "H:\\ASS_DATA\\ASS_45\\Notes\\Notes\\Notes.csproj": {
+    "C:\\Users\\786 COMPUTERS\\source\\repos\\Notes\\Notes\\Notes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\ASS_DATA\\ASS_45\\Notes\\Notes\\Notes.csproj",
+        "projectUniqueName": "C:\\Users\\786 COMPUTERS\\source\\repos\\Notes\\Notes\\Notes.csproj",
         "projectName": "Notes",
-        "projectPath": "H:\\ASS_DATA\\ASS_45\\Notes\\Notes\\Notes.csproj",
-        "packagesPath": "C:\\Users\\Arham\\.nuget\\packages\\",
-        "outputPath": "H:\\ASS_DATA\\ASS_45\\Notes\\Notes\\obj\\",
+        "projectPath": "C:\\Users\\786 COMPUTERS\\source\\repos\\Notes\\Notes\\Notes.csproj",
+        "packagesPath": "C:\\Users\\786 COMPUTERS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\786 COMPUTERS\\source\\repos\\Notes\\Notes\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Arham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\786 COMPUTERS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -66,6 +66,10 @@
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "dependencies": {
+            "Azure.Core": {
+              "target": "Package",
+              "version": "[1.40.0, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.2, )"
@@ -87,6 +91,14 @@
               "target": "Package",
               "version": "[8.0.3, )",
               "autoReferenced": true
+            },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.8, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.172, )"
             }
           },
           "imports": [
@@ -113,6 +125,10 @@
         "net8.0-ios17.2": {
           "targetAlias": "net8.0-ios",
           "dependencies": {
+            "Azure.Core": {
+              "target": "Package",
+              "version": "[1.40.0, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.2, )"
@@ -134,6 +150,14 @@
               "target": "Package",
               "version": "[8.0.3, )",
               "autoReferenced": true
+            },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.8, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.172, )"
             }
           },
           "imports": [
@@ -160,6 +184,10 @@
         "net8.0-maccatalyst17.2": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {
+            "Azure.Core": {
+              "target": "Package",
+              "version": "[1.40.0, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.2, )"
@@ -181,6 +209,14 @@
               "target": "Package",
               "version": "[8.0.3, )",
               "autoReferenced": true
+            },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.8, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.172, )"
             }
           },
           "imports": [
@@ -208,6 +244,10 @@
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "dependencies": {
+            "Azure.Core": {
+              "target": "Package",
+              "version": "[1.40.0, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.2, )"
@@ -223,6 +263,14 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.8, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.172, )"
             }
           },
           "imports": [
@@ -266,7 +314,7 @@
         "android-x86": {
           "#import": []
         },
-        "iossimulator-x64": {
+        "ios-arm64": {
           "#import": []
         },
         "maccatalyst-x64": {

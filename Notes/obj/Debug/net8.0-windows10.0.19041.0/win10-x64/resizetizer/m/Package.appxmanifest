@@ -3,7 +3,7 @@
   <Identity Name="com.companyname.notes" Publisher="CN=User Name" Version="1.0.0.1" />
   <mp:PhoneIdentity PhoneProductId="9F22C0D5-154B-4F96-8464-A4D3C410F9FE" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>Notes</DisplayName>
+    <DisplayName>Notes_2</DisplayName>
     <PublisherDisplayName>User Name</PublisherDisplayName>
     <Logo>note2StoreLogo.png</Logo>
   </Properties>
@@ -16,8 +16,8 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="$targetentrypoint$">
-      <uap:VisualElements DisplayName="Notes" Description="Notes" Square150x150Logo="note2MediumTile.png" Square44x44Logo="note2Logo.png" BackgroundColor="transparent">
-        <uap:DefaultTile Square71x71Logo="note2SmallTile.png" Wide310x150Logo="note2WideTile.png" Square310x310Logo="note2LargeTile.png" ShortName="Notes">
+      <uap:VisualElements DisplayName="Notes_2" Description="Notes_2" Square150x150Logo="note2MediumTile.png" Square44x44Logo="note2Logo.png" BackgroundColor="transparent">
+        <uap:DefaultTile Square71x71Logo="note2SmallTile.png" Wide310x150Logo="note2WideTile.png" Square310x310Logo="note2LargeTile.png" ShortName="Notes_2">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo" />
             <uap:ShowOn Tile="wide310x150Logo" />

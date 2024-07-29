@@ -1,26 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "H:\\ASS_DATA\\ASS_45\\Notes\\",
+  "WorkspaceRootPath": "C:\\Users\\786 COMPUTERS\\source\\repos\\Notes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A48F1B0A-4D2B-4827-936D-1EAF2564F7E7}|Notes\\Notes.csproj|h:\\ass_data\\ass_45\\notes\\notes\\notes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A48F1B0A-4D2B-4827-936D-1EAF2564F7E7}|Notes\\Notes.csproj|solutionrelative:notes\\notes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A48F1B0A-4D2B-4827-936D-1EAF2564F7E7}|Notes\\Notes.csproj|h:\\ass_data\\ass_45\\notes\\notes\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A48F1B0A-4D2B-4827-936D-1EAF2564F7E7}|Notes\\Notes.csproj|solutionrelative:notes\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A48F1B0A-4D2B-4827-936D-1EAF2564F7E7}|Notes\\Notes.csproj|h:\\ass_data\\ass_45\\notes\\notes\\displaylist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A48F1B0A-4D2B-4827-936D-1EAF2564F7E7}|Notes\\Notes.csproj|solutionrelative:notes\\displaylist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A48F1B0A-4D2B-4827-936D-1EAF2564F7E7}|Notes\\Notes.csproj|h:\\ass_data\\ass_45\\notes\\notes\\notes.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{A48F1B0A-4D2B-4827-936D-1EAF2564F7E7}|Notes\\Notes.csproj|solutionrelative:notes\\notes.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A48F1B0A-4D2B-4827-936D-1EAF2564F7E7}|Notes\\Notes.csproj|h:\\ass_data\\ass_45\\notes\\notes\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A48F1B0A-4D2B-4827-936D-1EAF2564F7E7}|Notes\\Notes.csproj|c:\\users\\786 computers\\source\\repos\\notes\\notes\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A48F1B0A-4D2B-4827-936D-1EAF2564F7E7}|Notes\\Notes.csproj|solutionrelative:notes\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48F1B0A-4D2B-4827-936D-1EAF2564F7E7}|Notes\\Notes.csproj|c:\\users\\786 computers\\source\\repos\\notes\\notes\\displaylist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A48F1B0A-4D2B-4827-936D-1EAF2564F7E7}|Notes\\Notes.csproj|solutionrelative:notes\\displaylist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,74 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Notes",
-              "DocumentMoniker": "H:\\ASS_DATA\\ASS_45\\Notes\\Notes\\Notes.csproj",
-              "RelativeDocumentMoniker": "Notes\\Notes.csproj",
-              "ToolTip": "H:\\ASS_DATA\\ASS_45\\Notes\\Notes\\Notes.csproj",
-              "RelativeToolTip": "Notes\\Notes.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-30T21:53:32.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{ce0010b1-93a1-33bb-8d9c-bcc1bf6c4873}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DisplayList.xaml",
-              "DocumentMoniker": "H:\\ASS_DATA\\ASS_45\\Notes\\Notes\\DisplayList.xaml",
-              "RelativeDocumentMoniker": "Notes\\DisplayList.xaml",
-              "ToolTip": "H:\\ASS_DATA\\ASS_45\\Notes\\Notes\\DisplayList.xaml",
-              "RelativeToolTip": "Notes\\DisplayList.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-30T20:43:30.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "H:\\ASS_DATA\\ASS_45\\Notes\\Notes\\MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\786 COMPUTERS\\source\\repos\\Notes\\Notes\\MainPage.xaml",
               "RelativeDocumentMoniker": "Notes\\MainPage.xaml",
-              "ToolTip": "H:\\ASS_DATA\\ASS_45\\Notes\\Notes\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\786 COMPUTERS\\source\\repos\\Notes\\Notes\\MainPage.xaml",
               "RelativeToolTip": "Notes\\MainPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQvSwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-30T20:34:25.371Z",
+              "WhenOpened": "2024-06-21T12:45:44.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AndroidManifest.xml",
-              "DocumentMoniker": "H:\\ASS_DATA\\ASS_45\\Notes\\Notes\\Platforms\\Android\\AndroidManifest.xml",
-              "RelativeDocumentMoniker": "Notes\\Platforms\\Android\\AndroidManifest.xml",
-              "ToolTip": "H:\\ASS_DATA\\ASS_45\\Notes\\Notes\\Platforms\\Android\\AndroidManifest.xml",
-              "RelativeToolTip": "Notes\\Platforms\\Android\\AndroidManifest.xml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-03-30T20:09:23.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Notes.csproj",
-              "DocumentMoniker": "H:\\ASS_DATA\\ASS_45\\Notes\\Notes\\Notes.csproj",
-              "RelativeDocumentMoniker": "Notes\\Notes.csproj",
-              "ToolTip": "H:\\ASS_DATA\\ASS_45\\Notes\\Notes\\Notes.csproj",
-              "RelativeToolTip": "Notes\\Notes.csproj",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-30T19:15:39.111Z",
+              "Title": "DisplayList.xaml",
+              "DocumentMoniker": "C:\\Users\\786 COMPUTERS\\source\\repos\\Notes\\Notes\\DisplayList.xaml",
+              "RelativeDocumentMoniker": "Notes\\DisplayList.xaml",
+              "ToolTip": "C:\\Users\\786 COMPUTERS\\source\\repos\\Notes\\Notes\\DisplayList.xaml",
+              "RelativeToolTip": "Notes\\DisplayList.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-21T12:47:21.044Z",
               "EditorCaption": ""
             }
           ]
